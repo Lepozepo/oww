@@ -1,4 +1,29 @@
+.navbar-default {
+	background-color:#C72027;
+}
 .navbar-default .navbar-brand{
-	color:#C72027;
+	color:#ffffff;
 	font-size:30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+h3 {
+	color:#C72027;
+	font-size:20px;
+}
+
+.btn-danger{
+	background-color:#C72027;
+}
+
+.tcol{
+	color:#ffffff;
+	background-color:#C72027;
 }
