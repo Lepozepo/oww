@@ -1,5 +1,6 @@
 .navbar-default {
 	background-color:#C72027;
+	vertical-align:middle;
 }
 .navbar-default .navbar-brand{
 	color:#ffffff;
@@ -19,6 +20,21 @@ h3 {
 	font-size:20px;
 }
 
+h5 {
+	font-size:45px;
+	text-align:center;
+}
+
+h2 {
+	color:#ffffff;
+	font-size:25px;
+}
+h4 {
+	color:#ffffff;
+	font-size:15px;
+	font-weight:normal;
+}
+
 .btn-danger{
 	background-color:#C72027;
 }
@@ -26,4 +42,8 @@ h3 {
 .tcol{
 	color:#ffffff;
 	background-color:#C72027;
+}
+
+.vcenter {
+	vertical-align:middle;
 }
