@@ -11,3 +11,5 @@ jquery
 twbs:bootstrap
 blaze
 iron:router
+coffeescript
+etjana:instafeed

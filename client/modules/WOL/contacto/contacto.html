@@ -1,0 +1,87 @@
+<template name="contacto">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	
+	<div class='navbar navbar-default'>
+			<div class="container-fluid text-center">
+		    	<h2> Concreta tu cita    
+					<button type='button' class='btn  btn-success btn-lg'>Hoy</button></h2>			
+			</div>
+	</div>
+		
+		<div class="container">
+			
+			<div class='row'>
+				<div class='col-md-1 col-sm-1 col-xs-1'>
+					<img src='/img/facebook.png' width='50' height='50'>
+				</div>
+				
+				<div class='col-md-2 col-sm-3 col-xs-10 col-xs-offset-1'>
+					<h3>Facebook</h3>
+					<div class="fb-page" data-href="https://www.facebook.com/OrmenWorldWide?fref=ts" data-width="500" data-height="600" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/OrmenWorldWide?fref=ts"><a href="https://www.facebook.com/OrmenWorldWide?fref=ts">Ormen World Wide</a></blockquote></div>
+					</div>
+				</div>
+				
+				<div class='col-md-1 col-md-offset-2 col-sm-1 col-sm-offset-1 col-xs-1'>
+					<img src='/img/twitter.png' width='50' height='50'>
+				</div>
+				
+				<div class='col-md-2 col-sm-3 col-xs-10 col-xs-offset-1'>
+					<h3>Twitter</h3>
+					<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/ormenww" data-widget-id="594885254537617409">Tweets by @ormenww</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+			</div>
+			
+			<div class='row'>
+				<div class='col-md-1 col-md-offset-2'>
+					<img src='/img/youtube.png' width='50' height='50'>
+				</div>
+				<div class='col-md-7'>
+					<h3>Videos</h3>
+				</div>
+			</div>
+			<div class='row'>
+				<div class='col-md-8 col-md-offset-2'>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/YDdACWVLmE4" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			
+			<div class='row'>
+				<div class='col-md-1 col-md-offset-1'>
+					<img src='/img/gmaps.png'>
+				</div>
+				<div clas='col-md-4'>
+					<h3>Mapa</h3>
+				</div>
+			</div>	
+			
+			<div class='row'>
+				<div class='col-md-5 col-md-offset-1'>
+					<iframe width="400" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=ORMEN%20WORLD%20WIDE%2C%20General%20Miguel%20Alem%C3%A1n%2C%20Centro%2C%20Cuauht%C3%A9moc%2C%20Mexico%20City%2C%20Mexico&key=AIzaSyAs9yUMZskW9HUqUUtwl-xIK0xb-Rf0geE"></iframe>
+				</div>
+			</div>
+			
+			
+		</div>
+			
+			
+			
+			
+		
+
+
+{{>footer}}
+
+
+
+
+
+</template>
