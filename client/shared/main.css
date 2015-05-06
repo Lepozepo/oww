@@ -15,6 +15,7 @@
     background-color: #ffffff;
 }
 
+
 h3 {
 	color:#C72027;
 	font-size:20px;
@@ -44,6 +45,14 @@ h4 {
 	background-color:#C72027;
 }
 
-.vcenter {
-	vertical-align:middle;
+p.padding {
+	padding-bottom: 25px;
+}
+
+span.glyphicon-envelope {
+    font-size: 45px;
+}
+
+li:hover { 
+    background-color: yellow;
 }
