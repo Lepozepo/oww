@@ -1,3 +1,10 @@
+.navbar-inverted {
+	background-color:#000000;
+	vertical-align:middle;
+	color:#ffffff;
+	text-align:center;
+}
+
 .navbar-default {
 	background-color:#C72027;
 	vertical-align:middle;
@@ -9,6 +16,15 @@
 
 .navbar-default .navbar-nav > li > a {
     color: #ffffff;
+		
+}
+.navbar-inverted .navbar-nav > li > a {
+    color: #ffffff;
+		text-align:center;
+}
+
+.navbar-inverted .navbar-nav > li > a:hover {
+    color: #000000;
 }
 
 .navbar-header .navbar-toggle .icon-bar {
@@ -60,3 +76,5 @@ li:hover {
 li.pad {
 	color:white;
 }
+
+

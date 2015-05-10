@@ -13,5 +13,15 @@ Template.menu.events({
                 throw new Meteor.Error("Logout failed");
             }
         })
-    }
+    },
+		'click .ahorro': function(event,tmpl){
+			Session.set('showAhorroGen',true)
+			
+		}
 });
+
+
+Template.products.helpers({
+	showAhorroGen : function(){
+	return Session.get('showAhorroGen');
+}})
