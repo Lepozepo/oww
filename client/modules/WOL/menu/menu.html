@@ -17,14 +17,18 @@
 				<li><a href='/productsf'>Productos</a></li>
 				<li><a href='#'>Nosotros</a></li>
 				<li><a href='/contacto'>Contactanos</a></li>
-		    {{#if currentUser}}
-		        {{currentUser.services.facebook.name}} -
-		        {{currentUser.services.facebook.gender}}
-		        <button id="logout">Logout</button>
-		    {{else}}
-		      <li><a data-login><span class='glyphicon glyphicon-user'></span></a></li>  <button id="facebook-login" class="btn btn-default"> Login with Facebook</button>
-		    {{/if}}
 				<li><a href="#"><span class='glyphicon glyphicon-shopping-cart'></span></a></li>
+		    {{#if currentUser}}
+				<li class='pad'>
+		        <a href="#">Welcome {{currentUser.services.facebook.name}}</a>
+					</li>
+					<li class='pad'>
+						<a href="#"><div id="logout">Logout</div></a>
+					</li>
+		    {{else}}
+		      <li><a data-login id="facebook-login"><span class='glyphicon glyphicon-user'></span></a></li>  
+		    {{/if}}
+				
 			</ul>
 		</div>
 	</div>

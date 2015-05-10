@@ -55,4 +55,8 @@ span.glyphicon-envelope {
 
 li:hover { 
     background-color: yellow;
+		color:black;
+}
+li.pad {
+	color:white;
 }
