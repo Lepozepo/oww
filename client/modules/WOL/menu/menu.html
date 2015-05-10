@@ -17,7 +17,13 @@
 				<li><a href='/productsf'>Productos</a></li>
 				<li><a href='#'>Nosotros</a></li>
 				<li><a href='/contacto'>Contactanos</a></li>
-				<li><a href="#"><span class='glyphicon glyphicon-user'></span></a></li>
+		    {{#if currentUser}}
+		        {{currentUser.services.facebook.name}} -
+		        {{currentUser.services.facebook.gender}}
+		        <button id="logout">Logout</button>
+		    {{else}}
+		      <li><a data-login><span class='glyphicon glyphicon-user'></span></a></li>  <button id="facebook-login" class="btn btn-default"> Login with Facebook</button>
+		    {{/if}}
 				<li><a href="#"><span class='glyphicon glyphicon-shopping-cart'></span></a></li>
 			</ul>
 		</div>
@@ -25,7 +31,7 @@
 	
 	<div class='row'>
 		<div class='col-md-6 col-md-offset-1 col-sm-5 col-sm-offset-1'>
-    	<h3> Cálcula tu ahorro gratis  <button type='button' class='btn  btn-danger'>Aquí</button></h3>
+    	<h3> Cálcula tu ahorro gratis  <button type='button' class='btn  btn-danger ahorro'>Aquí</button></h3>
 		</div>
 		<div class='col-md-5 col-sm-6'>
 			<form class='form-inline'>

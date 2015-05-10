@@ -13,3 +13,6 @@ blaze
 iron:router
 coffeescript
 etjana:instafeed
+accounts-ui
+service-configuration
+accounts-facebook
