@@ -1,6 +1,5 @@
 if (Meteor.isClient) {
-	Session.setDefault('showProductDialog', false);
-	Session.setDefault('editing_product', null);	
+	Session.setDefault('showAhorroGen', false);
 	
 
 

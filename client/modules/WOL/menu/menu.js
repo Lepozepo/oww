@@ -17,11 +17,16 @@ Template.menu.events({
 		'click .ahorro': function(event,tmpl){
 			Session.set('showAhorroGen',true)
 			
+		},
+		'click .cerrar' : function(event,tmpl){
+			return Session.set('showAhorroGen',false)
 		}
 });
 
 
-Template.products.helpers({
+Template.menu.helpers({
 	showAhorroGen : function(){
 	return Session.get('showAhorroGen');
-}})
+	}
+})
+
