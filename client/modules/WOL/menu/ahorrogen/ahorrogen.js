@@ -1,15 +1,16 @@
-Template.ahorroGen.onRendered (function(){
-	$('#genahorro').modal()
-})
+// You don't need any of this, this is excessive
+// Template.ahorroGen.onRendered (function(){
+// 	$('#genahorro').modal()
+// })
 
-Template.ahorroGen.helpers({
-	showAhorroGen : function(){
-	return Session.get('showAhorroGen');
-	},
-});
+// Template.ahorroGen.helpers({
+// 	showAhorroGen : function(){
+// 		return Session.get('showAhorroGen');
+// 	},
+// });
 
-Template.ahorroGen.events({
-	'click .cerrar' : function(event,tmpl){
-		return Session.set('showAhorroGen',false)
-	}
-});
+// Template.ahorroGen.events({
+// 	'click .cerrar' : function(event,tmpl){
+// 		return Session.set('showAhorroGen',false)
+// 	}
+// });
